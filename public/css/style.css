@@ -1,0 +1,27 @@
+body
+  {   background-color: #ECF0F1;
+      text-align: center;
+  }
+ul
+  {  
+    list-style-type: none
+  }
+ .attendees  li.attendee
+ {   width: 180px;
+     display: inline-block;
+     background-color: orange;
+     border-radius: 10px;
+     padding : 15px;
+     margin: 10px;
+     float: left;
+  }
+  .attendees  .attendee span
+ {    
+      background-color: white;
+      border-radius: 10px;
+      display: block;
+      overflow: hidden;
+      word-break: break-all;
+      padding: 21px;
+  }
+  
